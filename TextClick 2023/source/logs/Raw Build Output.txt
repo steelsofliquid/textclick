@@ -1,0 +1,56 @@
+3/16/2023 7:26:00 AM: Creating log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\TextClick2023.dev
+- Compiler Name: TDM-GCC 4.9.2 32-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\Makefile.win
+- Resource File: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\logs\TextClick2023_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\Makefile.win" all
+
+g++.exe -c main.cpp -o logs/main.o -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -m32
+windres.exe -i TextClick2023_private.rc -F pe-i386 --input-format=rc -o logs/TextClick2023_private.res -O coff 
+g++.exe logs/main.o logs/TextClick2023_private.res -o ../program/textclick.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -mwindows -m32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\program\textclick.exe
+- Output Size: 122.654296875 KiB
+- Compilation Time: 1.81s
+
+3/16/2023 7:27:34 AM: Appending to log...
+
+Compiling project changes...
+--------
+- Project Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\TextClick2023.dev
+- Compiler Name: TDM-GCC 4.9.2 32-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\Makefile.win
+- Resource File: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\logs\TextClick2023_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\source\Makefile.win" all
+
+windres.exe -i TextClick2023_private.rc -F pe-i386 --input-format=rc -o logs/TextClick2023_private.res -O coff 
+g++.exe logs/main.o logs/TextClick2023_private.res -o ../program/textclick.exe -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -mwindows -m32
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\oshol\OneDrive\Documents\Software Programs (C++)\March 2023\TextClick 2023\program\textclick.exe
+- Output Size: 127.154296875 KiB
+- Compilation Time: 0.34s

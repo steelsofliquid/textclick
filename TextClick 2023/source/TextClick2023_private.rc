@@ -1,0 +1,44 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+#include "resource.rc"
+
+A ICON "TextClick2023.ico"
+
+//
+// SUPPORT FOR WINDOWS XP THEMES:
+// THIS WILL MAKE THE PROGRAM USE THE COMMON CONTROLS
+// LIBRARY VERSION 6.0 (IF IT IS AVAILABLE)
+//
+1 24 "../program/textclick.exe.Manifest"
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 8,0,1,477
+PRODUCTVERSION 8,0,1,477
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "CompanyName", "Nathan Renaud (SteelsOfLiquid)"
+      VALUE "FileVersion", "8.0.1.477"
+      VALUE "FileDescription", "TextClick 2023"
+      VALUE "InternalName", ""
+      VALUE "LegalCopyright", "TextClick 2023 is not copyright. It was created in 2023 by Nathan Renaud."
+      VALUE "LegalTrademarks", ""
+      VALUE "OriginalFilename", ""
+      VALUE "ProductName", "TextClick 2023 Text Editor (32-bit)"
+      VALUE "ProductVersion", "8.0.1.477"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252
+  }
+}
