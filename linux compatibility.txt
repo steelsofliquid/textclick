@@ -1,0 +1,19 @@
+Recently, I tested TextClick 2023 (aka TextClick 8.0) on Ubuntu 23.04.
+Despite being Win32-based, it is still possible to run this program on Linux.
+
+If you are using Linux and want to use the program, download the program like normal.
+But, in order to RUN the program, you will need WINE. Once WINE is installed, type into
+your console, the following command:
+
+wine start -unix [drag and drop the program into the console and it should automatically add the program path]
+
+Unlike running the program on Windows 98, I have done a more thorough compatibility test, testing the following:
+- Mini-ribbon
+- New file (both ribbon and menu)
+- Save file (both ribbon and menu)
+- Window Manipulation
+
+In fact, running TextClick and the other programs built on the same foundation loads special icons not found on
+the Windows version.
+
+*This guide also applies to Analysis-72 and WebStudio.
