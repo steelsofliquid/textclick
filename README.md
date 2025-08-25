@@ -1,0 +1,3 @@
+# Tying up the loose ends of abandoned repos...
+
+TextClick is *de facto* abandoned. While I'd like to reuse the name for a text editor, this project is currently dormant until a text editor can be written by me without using a template.
